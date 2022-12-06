@@ -1,0 +1,8 @@
+insert into contact_person (contact_person_id, first_name, last_name, relation_to_student, phone_no) values (543, 'Mark', 'Bickmore','Parent', '072-4028493');
+insert into contact_person (contact_person_id, first_name, last_name, relation_to_student, phone_no) values (938, 'Jessica', 'Stone','Parent', '070-2840581');
+insert into contact_person (contact_person_id, first_name, last_name, relation_to_student, phone_no) values (233, 'Per', 'Andersson','Grand Parent', '076-2938501');
+insert into contact_person (contact_person_id, first_name, last_name, relation_to_student, phone_no) values (594, 'Lars', 'Hamn','Parent', '08-2739278');
+insert into contact_person (contact_person_id, first_name, last_name, relation_to_student, phone_no) values (958, 'Anna', 'Gren','Aunt', '073-9283947');
+
+
+

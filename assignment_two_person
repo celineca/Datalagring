@@ -1,0 +1,10 @@
+insert into person (id, person_number, first_name, last_name, street, zip, city) values (6522, '649076-0353','Hersch', 'Haswell', 'Löjromvägen 3', '15682', 'Malmö');
+insert into person (id, person_number, first_name, last_name, street, zip, city) values (62024,'330264-6007', 'Berget', 'Daughtry', 'Skogsvägen 23', '56292', 'Stockholm');
+insert into person (id, person_number, first_name, last_name, street, zip, city) values (44018,'505655-2266', 'Ellswerth', 'Meecher', 'Bokgränd 9', '93716', 'Göteborg');
+insert into person (id, person_number, first_name, last_name, street, zip, city) values (781, '471774-5785','Thain', 'Reeks', 'Ellas väg 7', '12574', 'Stockholm');
+insert into person (id, person_number, first_name, last_name, street, zip, city) values (17486, '600089-9497','Larry', 'Bickmore','Skolgatan 90', '20746', 'Malmö');
+insert into person (id, person_number, first_name, last_name, street, zip, city) values (825,'420858-8339', 'Gabbey', 'Lalor', 'Blomgatan 87', '57194', 'Sundsvall');
+insert into person (id, person_number, first_name, last_name, street, zip, city) values (729,'164689-6907', 'Brander', 'Dickin', 'Postgränd 1', '15682', 'Östersund');
+insert into person (id, person_number, first_name, last_name, street, zip, city) values (150, '847356-2948','Evita', 'Eixenberger', 'Sjukhusvägen 6', '15682', 'Kalmar' );
+insert into person (id, person_number, first_name, last_name, street, zip, city) values (119, '643251-7362','Brandon', 'Skoof', 'Hallonvägen 92', '15682', 'Stockholm' );
+insert into person (id, person_number, first_name, last_name, street, zip, city) values (19369, '790968-1339', 'Hyacinthia', 'Shoute', 'Universitetsgatan 57', '15682', 'Uppsala' );

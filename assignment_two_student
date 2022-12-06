@@ -1,0 +1,7 @@
+insert into student (id,person_id,student_no) values (7, 6522, '289323');
+insert into student (id,person_id,student_no) values (3, 62024, '391704');
+insert into student (id,person_id,student_no) values (17, 44018, '491074');
+insert into student (id,person_id,student_no) values (15, 781, '198472');
+insert into student (id,person_id,student_no) values (20, 17486, '982733');
+insert into student (id,person_id,student_no) values (13, 825, '982744');
+insert into student (id,person_id,student_no) values (9, 729, '284017');
