@@ -1,14 +1,6 @@
 CREATE TABLE classroom (
  room  VARCHAR(500) NOT NULL,
  street  VARCHAR(500) NOT NULL,
- zip VARCHAR(5) NOT NULL,
- city VARCHAR(500) NOT NULL
-);
-
-
-CREATE TABLE classroom (
- room  VARCHAR(500) NOT NULL,
- street  VARCHAR(500) NOT NULL,
  zip VARCHAR(500) NOT NULL,
  city VARCHAR(500) NOT NULL
 );
@@ -232,5 +224,6 @@ ALTER TABLE group_lesson ADD CONSTRAINT FK_group_lesson_0 FOREIGN KEY (instructo
 
 
 ALTER TABLE instrument ADD CONSTRAINT FK_instrument_0 FOREIGN KEY (rental_id) REFERENCES rental (id);
+
 
 
