@@ -1,4 +1,0 @@
-insert into email (email_id, email) values (19369, 'anna24@hotmail.com' );
-insert into email (email_id, email) values (38583, 'jagärcool@hotmail.com' );
-insert into email (email_id, email) values (94728, 'stina_beck@gmail.com' );
-insert into email (email_id, email) values (47299, 'harke@kth.se' );
