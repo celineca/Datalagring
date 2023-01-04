@@ -10,44 +10,6 @@ insert into email (id, email) values (38583, 'jagärcool@hotmail.com' );
 insert into email (id, email) values (94728, 'stina_beck@gmail.com' );
 insert into email (id, email) values (47299, 'harke@kth.se' );
 
-
-insert into instructor (id,person_id,employee_no) values (90, 150, '27491');
-insert into instructor (id,person_id,employee_no) values (5, 119, '48401');
-insert into instructor (id,person_id,employee_no) values (57, 19369, '27491');
-
-
-insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('20', 'guitar', 'Stockholm', 1);
-insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('8', 'guitar', 'Kalmar', 2);
-insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('4', 'drums', 'Sundsvall', 3);
-insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('6', 'saxophone', 'Stockholm', 4);
-insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('10', 'guitar', 'Gothenburg', 5);
-insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('3', 'guitar', 'Sundsvall', 6);
-insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('2', 'drums', 'Uppsala', 7);
-insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('3', 'saxophone', 'Uppsala', 8);
-insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('20', 'guitar', 'Malmö', 9);
-insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('8', 'guitar', 'Uppsala', 10);
-insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('4', 'drums', 'Östersund', 11);
-insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('1', 'saxophone', 'Östersund', 12);
-insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('10', 'guitar', 'Östersund', 13);
-insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('4', 'drums', 'Malmö', 14);
-
-
-
-insert into lesson (id, instructor_id, level, date, start_time, end_time, fee, student_id) 
-values (1, 90,'Beginner', 2022-12-08, 12:30, 12:30, '300:-',6522);
-insert into lesson (id, instructor_id, level, date, start_time, end_time, fee, student_id) 
-values (2, 5,'Beginner', 2022-12-08, 14:30, 15:30, '300:-',44018);
-insert into lesson (id, instructor_id, level, date, start_time, end_time, fee, student_id) 
-values (3, 57,'Intermediate', 2022-12-08, 16:30, 17:30, '400:-',17486);
-insert into lesson (id, instructor_id, level, date, start_time, end_time, fee, student_id) 
-values (4, 90,'Advanced', 2022-12-09, 10:30, 12:00, '600:-',825);
-insert into lesson (id, instructor_id, level, date, start_time, end_time, fee, student_id) 
-values (5, 5,'Intermediate', 2022-12-09, 12:30, 13:30, '400:-',729);
-insert into lesson (id, instructor_id, level, date, start_time, end_time, fee, student_id) 
-values (6, 57,'Intermediate', 2022-12-10, 14:30, 15:30, '400:-',62024);
-insert into lesson (id, instructor_id, level, date, start_time, end_time, fee, student_id) 
-values (7, 90,'Beginner', 2022-12-10, 17:30, 18:30, '300:-',781);
-
 insert into person (id, person_number, first_name, last_name, street, zip, city) values (6522, '640906-0353','Hersch', 'Haswell', 'Löjromvägen 3', '15682', 'Malmö');
 insert into person (id, person_number, first_name, last_name, street, zip, city) values (62024,'830204-6007', 'Berget', 'Daughtry', 'Skogsvägen 23', '56292', 'Stockholm');
 insert into person (id, person_number, first_name, last_name, street, zip, city) values (44018,'500625-2266', 'Ellswerth', 'Meecher', 'Bokgränd 9', '93716', 'Göteborg');
@@ -60,15 +22,9 @@ insert into person (id, person_number, first_name, last_name, street, zip, city)
 insert into person (id, person_number, first_name, last_name, street, zip, city) values (19369, '790928-1339', 'Hyacinthia', 'Shoute', 'Universitetsgatan 57', '15682', 'Uppsala' );
 
 
-insert into rental (id, type_of_instrument, fee, time_rented, due_date, max_rent_limit, student_id, person_id) 
-values (5, 'guitar', '300:- /month', '2022-10-01', '2023-10-01','12',17, 44018);
-insert into rental (id, type_of_instrument, fee, time_rented, due_date, max_rent_limit, student_id, person_id) 
-values (1, 'guitar', '300:- /month', '2022-08-27', '2023-08-27','12',3, 62024);
-insert into rental (id, type_of_instrument, fee, time_rented, due_date, max_rent_limit, student_id, person_id) 
-values (4, 'saxophone', '450:- /month', '2022-06-12', '2023-06-12','12',7, 6522);
-insert into rental (id, type_of_instrument, fee, time_rented, due_date, max_rent_limit, student_id, person_id) 
-values (11, 'drums', '600:- /month', '2022-01-15', '2023-01-15','12',9, 729);
-
+insert into instructor (id,person_id,employment_no) values (90, 150, '27491');
+insert into instructor (id,person_id,employment_no) values (5, 119, '48401');
+insert into instructor (id,person_id,employment_no) values (57, 19369, '27491');
 
 insert into student (id,person_id,student_no) values (7, 6522, '289323');
 insert into student (id,person_id,student_no) values (3, 62024, '391704');
@@ -77,6 +33,49 @@ insert into student (id,person_id,student_no) values (15, 781, '198472');
 insert into student (id,person_id,student_no) values (20, 17486, '982733');
 insert into student (id,person_id,student_no) values (13, 825, '982744');
 insert into student (id,person_id,student_no) values (9, 729, '284017');
+
+
+insert into rental (id, type_of_instrument, fee, time_rented, due_date, student_id) 
+values (5, 'guitar', '300:- /month', '2022-10-01', '2023-10-01',17);
+insert into rental (id, type_of_instrument, fee, time_rented, due_date, student_id) 
+values (1, 'guitar', '300:- /month', '2022-08-27', '2023-08-27',3);
+insert into rental (id, type_of_instrument, fee, time_rented, due_date, student_id) 
+values (4, 'saxophone', '450:- /month', '2022-06-12', '2023-06-12',7);
+insert into rental (id, type_of_instrument, fee, time_rented, due_date, student_id) 
+values (11, 'drums', '600:- /month', '2022-01-15', '2023-01-15',9);
+
+
+insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('20', 'guitar', 'Stockholm', 5);
+insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('8', 'guitar', 'Kalmar', 1);
+insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('4', 'drums', 'Sundsvall', 4);
+insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('6', 'saxophone', 'Stockholm', 11);
+insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('10', 'guitar', 'Gothenburg', 5);
+insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('3', 'guitar', 'Sundsvall', 1);
+insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('2', 'drums', 'Uppsala', 4);
+insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('3', 'saxophone', 'Uppsala', 11);
+insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('20', 'guitar', 'Malmö', 5);
+insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('8', 'guitar', 'Uppsala', 1);
+insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('4', 'drums', 'Östersund', 4);
+insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('1', 'saxophone', 'Östersund', 11);
+insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('10', 'guitar', 'Östersund', 5);
+insert into instrument (quantity, brand, location_of_instrument, rental_id) values ('4', 'drums', 'Malmö', 5);
+
+
+
+insert into lesson (id, instructor_id, level, date, start_time, end_time, fee, student_id) 
+values (1, 90,'Beginner', '2022-12-08', '12:30:00', '13:30:00', '300:-',7);
+insert into lesson (id, instructor_id, level, date, start_time, end_time, fee, student_id) 
+values (2, 5,'Beginner', '2022-12-08', '14:30:00', '15:30:00', '300:-',3);
+insert into lesson (id, instructor_id, level, date, start_time, end_time, fee, student_id) 
+values (3, 57,'Intermediate', '2022-12-08', '16:30:00', '17:30:00', '400:-',17);
+insert into lesson (id, instructor_id, level, date, start_time, end_time, fee, student_id) 
+values (4, 90,'Advanced', '2022-12-09', '10:30:00', '12:00:00', '600:-',15);
+insert into lesson (id, instructor_id, level, date, start_time, end_time, fee, student_id) 
+values (5, 5,'Intermediate', '2022-12-09', '12:30:00', '13:30:00', '400:-',20);
+insert into lesson (id, instructor_id, level, date, start_time, end_time, fee, student_id) 
+values (6, 57,'Intermediate', '2022-12-10', '14:30:00', '15:30:00', '400:-',13);
+insert into lesson (id, instructor_id, level, date, start_time, end_time, fee, student_id) 
+values (7, 90,'Beginner', '2022-12-10', '17:30:00', '18:30:00', '300:-',9);
 
 insert into classroom (room, street, zip, city) values ('1', 'Musikskolvägen 3', '37283', 'Malmö');
 insert into classroom (room, street, zip, city) values ('2', 'Musikskolvägen 3', '37283', 'Malmö');
@@ -129,34 +128,16 @@ insert into sibling (id, sibling) values (33, 'Wayne Gould');
 insert into sibling (id, sibling) values (5, 'Tilly Long');
 
 
-insert into instructor (id,person_id,employee_no) values (90, 150, '27491');
-insert into instructor (id,person_id,employee_no) values (5, 119, '48401');
-insert into instructor (id,person_id,employee_no) values (57, 19369, '27491');
+
+insert into single_lesson (type_of_instrument,instructor_id,lesson_id,student_id) values ('guitar', 90, 1, 7);
+insert into single_lesson (type_of_instrument,instructor_id,lesson_id,student_id) values ('guitar', 5, 2, 3);
+insert into single_lesson (type_of_instrument,instructor_id,lesson_id,student_id) values ('guitar', 57, 3, 17);
 
 
-insert into student (id,person_id,student_no) values (7, 6522, '289323');
-insert into student (id,person_id,student_no) values (3, 62024, '391704');
-insert into student (id,person_id,student_no) values (17, 44018, '491074');
-insert into student (id,person_id,student_no) values (15, 781, '198472');
-insert into student (id,person_id,student_no) values (20, 17486, '982733');
-insert into student (id,person_id,student_no) values (13, 825, '982744');
-insert into student (id,person_id,student_no) values (9, 729, '284017');
+insert into ensamble (min_students,genre,instructor_id,lesson_id,student_id) values ('3', 'jazz', 90,4,15 );
+insert into ensamble (min_students,genre,instructor_id,lesson_id,student_id) values ('3', 'rock', 5,5,20 );
 
 
-insert into single_lesson (type_of_instrument,instructor_id,lesson_id,student_id) values ('guitar', 90, 1, 17);
-insert into single_lesson (type_of_instrument,instructor_id,lesson_id,student_id) values ('guitar', 5, 2, 7);
-insert into single_lesson (type_of_instrument,instructor_id,lesson_id,student_id) values ('guitar', 90, 3, 3);
-
-
-insert into ensamble (min_students,genre,instructor_id,lesson_id,student_id) values ('3', 'jazz', 5,5,15 );
-insert into ensamble (min_students,genre,instructor_id,lesson_id,student_id) values ('3', 'rock', 5,5,17 );
-insert into ensamble (min_students,genre,instructor_id,lesson_id,student_id) values ('3', 'rock', 5,5,13 );
-insert into ensamble (min_students,genre,instructor_id,lesson_id,student_id) values ('3', 'jazz', 5,5,9 );
-
-
-insert into group_lesson (min_students,type_of_instrument,instructor_id,lesson_id,student_id) values ('3','guitar', 57, 7,9);
-insert into group_lesson (min_students,type_of_instrument,instructor_id,lesson_id,student_id) values ('3','guitar', 57, 7,13);
-insert into group_lesson (min_students,type_of_instrument,instructor_id,lesson_id,student_id) values ('3','guitar', 57, 7,15);
-insert into group_lesson (min_students,type_of_instrument,instructor_id,lesson_id,student_id) values ('3','guitar', 57, 7,3);
-insert into group_lesson (min_students,type_of_instrument,instructor_id,lesson_id,student_id) values ('3','guitar', 57, 7,7);
+insert into group_lesson (min_value,type_of_instrument,instructor_id,lesson_id,student_id) values ('3','guitar', 57, 6,13);
+insert into group_lesson (min_value,type_of_instrument,instructor_id,lesson_id,student_id) values ('3','guitar', 90, 7,9);
 
