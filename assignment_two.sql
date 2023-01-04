@@ -118,8 +118,8 @@ CREATE TABLE lesson (
  student_id INT NOT NULL,
  level VARCHAR(500) NOT NULL,
  date TIMESTAMP(10) NOT NULL,
- start_time TIMESTAMP(10) NOT NULL,
- end_time TIMESTAMP(10) NOT NULL,
+ start_time TIME(6) NOT NULL,
+ end_time TIME(6) NOT NULL,
  fee VARCHAR(500) NOT NULL
 );
 
@@ -140,7 +140,6 @@ CREATE TABLE rental (
  fee VARCHAR(500) NOT NULL,
  time_rented TIMESTAMP(10) NOT NULL,
  due_date TIMESTAMP(10) NOT NULL,
- max_rent_limit TIMESTAMP(10) NOT NULL,
  student_id INT
 );
 
@@ -224,6 +223,4 @@ ALTER TABLE group_lesson ADD CONSTRAINT FK_group_lesson_0 FOREIGN KEY (instructo
 
 
 ALTER TABLE instrument ADD CONSTRAINT FK_instrument_0 FOREIGN KEY (rental_id) REFERENCES rental (id);
-
-
 
